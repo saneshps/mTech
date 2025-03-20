@@ -1,0 +1,129 @@
+.page-banner-area {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include respond-below(xl) {
+        height: 60vh;
+    }
+
+    @include respond-below(lg) {
+        height: 60vh;
+    }
+
+    @include respond-below(md) {
+        height: 60vh;
+    }
+
+    @include respond-below(sm) {
+        height: 60vh;
+    }
+
+    .page-banner {
+        padding: 0 10px;
+        position: absolute;
+        bottom: 0;
+        top: 30%;
+
+        @include respond-below(md) {
+            padding: 0 50px;
+            top: 20%;
+        }
+
+        @include respond-below(sm) {
+            padding: 0 20px;
+            top: 20%;
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+
+            @include respond-below(lg) {
+                font-size: 3rem !important;
+            }
+
+            @include respond-below(sm) {
+                font-size: 1.8rem !important;
+            }
+
+        }
+
+        p {
+            color: #fff;
+            text-align: center;
+            font-weight: 300;
+            line-height: 28px;
+            margin: 20px 0 0 0;
+
+        }
+    }
+
+    &.career-hero {
+        @include respond-below(lg) {
+            height: 50vh !important;
+        }
+
+        @include respond-below(md) {
+            height: 40vh !important;
+        }
+
+        @include respond-below(sm) {
+            height: 40vh !important;
+        }
+    }
+
+    &.career-form-hero {
+        @include respond-below(lg) {
+            height: 50vh !important;
+        }
+
+        @include respond-below(md) {
+            height: 40vh !important;
+        }
+
+        @include respond-below(sm) {
+            height: 40vh !important;
+        }
+    }
+
+    &.client-hero {
+        @include respond-below(lg) {
+            height: 80vh !important;
+        }
+
+        @include respond-below(md) {
+            height: 55vh !important;
+        }
+
+        @include respond-below(sm) {
+            height: 70vh !important;
+        }
+    }
+
+    &.contact-hero {
+        @include respond-below(lg) {
+            height: 65vh !important;
+        }
+
+        @include respond-below(md) {
+            height: 45vh !important;
+        }
+
+        @include respond-below(sm) {
+            height: 60vh !important;
+        }
+    }
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1279px) {
+    .page-banner-area.client-hero {
+        height: 80vh !important;
+    }
+
+    .page-banner-area .page-banner h1 {
+        font-size: 3.5rem !important;
+    }
+}
