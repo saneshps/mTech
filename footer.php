@@ -98,6 +98,10 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Swiper Js -->
 
+        <!-- counter -->
+        <script src="./js/counter.js"></script>
+    <!-- counter -->
+
     <!-- Swiper Js -->
     <script src="./js/slider.js"></script>
     <!-- Search -->
@@ -122,9 +126,7 @@
     <script src="./js/sticky-nav.js"></script>
     <!-- Sticky Nav -->
 
-    <!-- counter -->
-    <script src="./js/counter.js"></script>
-    <!-- counter -->
+
 
 
     <!-- timeline -->
